@@ -48,9 +48,9 @@ while True:
                 print(f'sum numbers : {sum}')
                     
             elif choice =='2':
-                Subtraction = 0
                 numbers = input('enter number :').split()
-                for number in numbers:
+                Subtraction = float(numbers[0])
+                for number in numbers[1:]:
                     Subtraction -=  float(number)
                     history.append(Subtraction)
                 print(f'Subtraction numbers : {Subtraction}')
