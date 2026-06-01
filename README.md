@@ -1,5 +1,4 @@
-# mini-python-project
-A collection of beginner Python projects and exercises.
+# Caculator
 Simple Caculator in Python
 
 Features:
